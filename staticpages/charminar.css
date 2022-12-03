@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Maiandra GD';
+}
+
+.headercon {
+    display: flex;
+    /* margin: 20px; */
+    background: url(../simages/bgnight.jpg) no-repeat center center/cover;
+    /* position: absolute; */
+    height: 20%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.header {
+    display: flex;
+    margin: 25px 25px;
+    /* justify-content: center;
+    align-items: center; */
+    animation: slide 0.5s ease-in 0.5 forwards;
+}
+
+.header h2 {
+    color: white;
+    /* text-align: center; */
+    font-size: 2.5rem;
+}
+
+.matter {
+    margin-top: 35px;
+    padding: 50px;
+}
+
+#imagediv {
+    display: inline-block;
+}
+
+#imagediv img {
+    box-shadow: 5px 5px 10px rgb(28, 255, 149);
+    height: 450px;
+    left: 10px;
+    margin: 50px;
+    margin-top: 90px;
+}
+
+#main {
+    height: 100%;
+}
+
+#main::before{
+    content: "";
+    background: url(../simages/skybghd.jpg) no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* margin-top: 100px; */
+    position: absolute;
+    z-index: -2;
+    opacity: 0.8;
+}
+
+.bodycon {
+    display: flex;
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 100%;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+
+.rightdiv p {
+    font-size: 1.2rem;
+    font-weight: 520;
+    color: red;
+    text-shadow: 1px 1px 4px rgb(255, 255, 255);
+}

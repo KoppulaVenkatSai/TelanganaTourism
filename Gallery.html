@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        
+        .container{
+            display: flex;
+            justify-content: space-evenly;
+            flex-wrap: wrap;
+            
+        }
+        .images{
+            margin-top: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            /* border: 1px solid red; */
+        }
+        .imgcls{
+            box-shadow: 1px 1px 11px 5px lightskyblue;
+            border-radius: 5px;
+            
+            margin: 20px;
+            height: 225px;
+            width: 400px;
+        }
+        #image-10{
+            margin-left: 20px;
+        }
+        #image-11{
+            margin-left: 20px;
+        }
+        .heading{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h1{
+            font-size: 3rem;
+            color: rgb(255, 208, 208);
+            font-family: maiandra-gd;
+            text-shadow: 1px 1px 3px rgb(255, 171, 244);
+            margin: 0px;
+            margin-top: 10px;
+        }
+        body{
+            background: url(../images/bg10beach.jpg) no-repeat center center/cover;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1>
+            GALLERY
+        </h1>
+    </div>
+    <div class="container">
+        <div class="images" id="image-1"><img class = "imgcls" src="../images/box1-charminar.jpg" alt=""></div>
+        <div class="images" id="image-2"><img class = "imgcls" src="../images/box2-laknavaram.jpg" alt=""></div>
+        <div class="images" id="image-3"><img class = "imgcls" src="../images/box3-1000pillar.jpg" alt=""></div>
+        <div class="images" id="image-4"><img class = "imgcls" src="../images/box4-yadagirigutta.jpg" alt=""></div>
+        <div class="images" id="image-5"><img class = "imgcls" src="../images/box5-ramoji.jpg" alt=""></div>
+        <div class="images" id="image-6"><img class = "imgcls" src="../images/box6-papikondalu.jpg" alt=""></div>
+        <div class="images" id="image-7"><img class = "imgcls" src="../images/slide1-charminar.jpg" alt=""></div>
+        <div class="images" id="image-8"><img class = "imgcls" src="../images/1000pillarinside.jpg" alt=""></div>
+        <div class="images" id="image-9"><img class = "imgcls" src="../images/gallery-papikondalu.jpg" alt=""></div>
+        <div class="images" id="image-10"><img class = "imgcls" src="../images/bg9durgamCheruvu.jpg" alt=""></div>
+        <div class="images" id="image-11"><img class = "imgcls" src="../images/laknavaramview.jpg" alt=""></div>
+        <div class="images" id="image-12"><img class = "imgcls" src="../images/slide6-laknavaram.jpg" alt=""></div>
+    </div>
+    
+</body>
+</html>

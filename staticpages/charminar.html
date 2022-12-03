@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Charminar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Maiandra GD';
+        }
+
+        .headercon {
+            display: flex;
+            /* margin: 20px; */
+            background: url(../simages/bgnight.jpg) no-repeat center center/cover;
+            /* position: absolute; */
+            height: 20%;
+            width: 100%;
+            z-index: -1;
+            opacity: 0.8;
+        }
+
+        .header {
+            display: flex;
+            margin: 25px 25px;
+            /* justify-content: center;
+            align-items: center; */
+            animation: slide 1s ease-in forwards;
+        }
+
+        @keyframes slide {
+            0%{
+                display: none;
+                opacity: 0;
+                transform: translate(800px);
+            }
+            /* 50%{
+                opacity: 0.3;
+                transform: translate(250px);
+            } */
+            100%{
+                transform: translate(0px);
+                opacity: 1;
+            }
+        }
+
+        .header h2 {
+            color: rgb(255, 0, 0);
+            /* text-align: center; */
+            font-size: 3rem;
+            margin-left: 25px;
+            text-shadow: 1px 1px 5px rgb(255, 255, 255);
+        }
+
+        .matter {
+            margin-top: 35px;
+            padding: 50px;
+        }
+
+        #imagediv {
+            display: inline-block;
+        }
+
+        #imagediv img {
+            box-shadow: 5px 5px 10px rgb(28, 255, 149);
+            height: 450px;
+            left: 10px;
+            margin: 50px;
+            margin-top: 90px;
+        }
+
+        #main {
+            height: 100%;
+        }
+
+        #main::before {
+            content: "";
+            background: url(../simages/skybghd.jpg) no-repeat center center/cover;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            /* margin-top: 100px; */
+            position: absolute;
+            z-index: -2;
+            opacity: 0.8;
+        }
+
+        .bodycon {
+            display: flex;
+            /* border: 1px solid red; */
+            height: 100%;
+            width: 100%;
+            justify-content: flex-start;
+            /* align-items: center; */
+        }
+
+        .rightdiv p {
+            font-size: 1.2rem;
+            font-weight: 520;
+            color: red;
+            text-shadow: 1px 1px 4px rgb(255, 255, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="headercon">
+        <div class="header">
+            <h2>CHARMINAR</h2>
+        </div>
+    </div>
+    <div id="main">
+        <div class="bodycon">
+            <div id="imagediv">
+                <img src="../simages/charminar.jpg" alt="Charminar">
+            </div>
+            <div class="rightdiv">
+
+                <div class="matter">
+                    <p align="justify">The capital city of Telangana,Hyderabad is a popular tourist destination and
+                        presents
+                        its visitors with a mesmerising contrast of age old traditions,culture at one end and modern
+                        facilities,amenities of a metropolitan city at the other end.Hyderabad is one city,which has no
+                        dearth of tourist attractions.The very well known Charminar of Hyderabad is located at the Old
+                        City.This square shaped structure with a height of 56 m and breadth of 30 m was constructed in
+                        1591.It was built by Sultan Mohammed Quli Qutb Shah in the honor of his wife Bhagmati.Also
+                        referredas the ‘Arc de Triomphe of the East’, Charminar is adorned with four towers in each
+                        corner. Theminarets on each side, is of 48.7 m height, each with four storeys. Chaminar has a
+                        small mosqueas well on the top floor. There are 45 prayer spaces which are still visited by
+                        people,articularly
+                        on Fridays.Lighting in the evening is quite glamorous and makes for a worth watching site.It has
+                        been built of granite and lime mortar.Each side opens into a plaza through giant
+                        arches,overlooking four major thoroughfares.Each arch has a width of 11 metres and height of 20
+                        metres.The minarets cover a length of 48.7 metres from the ground to the apex.Each minaret of
+                        the building has four storeys.One can see the motif of Qutub Shahi buildings in the way each
+                        minaret has been constructed over base which looks like lotus leaf.
+                    </p>
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
